@@ -96,7 +96,7 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
@@ -146,4 +146,26 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+/* blogs */
+
+.blogs {
+    padding: 1rem;
+    text-align: justify;
+}
+
+.blogs h2 {
+    color: var(--primary-color);
+}
+
+.blogs h3 {
+    color: var(--dark-gray);
+}
+
+.blogs .blog-img {
+    max-width: 300px;
+    max-height: 250px;
+    display: block;
+    margin: auto;
 }
