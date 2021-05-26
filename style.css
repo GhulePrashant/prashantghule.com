@@ -6,6 +6,10 @@
     --off-white: #F3F4F6;
 }
 
+@media (max-width: 767px) {
+    .link-primary, .link-secondory {width:150px;text-align: center; display:block;margin:0.5rem;padding: 0rem;}
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
