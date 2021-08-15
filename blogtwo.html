@@ -18,27 +18,112 @@
         </ul>
     </nav>
 
-    <div class="container container-center blogs">
-        <h2>Dummy Blog 2</h2>
-        <img class="blog-img" src="/images/blogtwo.svg" alt="header-pic" />
+    <div class="container container-center blogs ow">
+        <h2>How to code in JavaScript?</h2>
+
         <p>
-            <h3> Suscipit Fermentum Facilisi Eget</h3> Dictumst
-            Duis feugiat auctor ut, sapien litora, praesent sodales quisque nostra laoreet orci sollicitudin purus
-            tempor pede cras. At curabitur aptent. Ut.
-        </p>
-        <p>
-            Ultricies sapien sociosqu orci penatibus Donec, cursus aliquam porta. At sapien netus sociis. Phasellus
-            vitae montes massa dis senectus nascetur eleifend sapien dis faucibus risus hendrerit vitae elementum
-            maecenas consectetuer.
+            <strong>JavaScript</strong> is a programming language used to make dynamic and interactive websites.
         </p>
 
-        <h3>Malesuada Condimentum Consectetuer Parturient Etiam</h3>
-        <p> Turpis cursus ad dui sociosqu fames sociosqu nostra cubilia libero rutrum sagittis venenatis sem lacus
-            sollicitudin sed mus quam non nisi, rhoncus habitasse condimentum molestie.
+        <img class="blog-img" src="/images/javascript.webp" alt="header-pic" />
 
-            Leo facilisi vestibulum mauris euismod nec bibendum augue sodales pellentesque semper cum egestas penatibus
-            sem hymenaeos sociis dolor. Posuere fusce dapibus fringilla montes consequat.
+        <p>
+            For example, it allows us to:
+            <ul>
+                <li>Show a message when the user clicks on a button.</li><br>
+                <li>Hide a message when the user clicks on the close button.</li><br>
+                <li>Open a sidebar when the users swipes to the right from the edge of the screen.</li><br>
+                <li>Hide or unhide the elements.</li>
+            </ul>
         </p>
+
+        <p>
+            <strong>JavaScript</strong> is often used in combination with <strong>HTML</strong> & <strong>CSS</strong>.
+        </p>
+
+        <p>
+            <strong>JavaScript</strong> can also be used on the server side to write the backend part or API of your
+            website. Then, in that context it is called <strong>Node</strong> or <strong>NodeJS</strong>.
+        </p>
+
+        <h3>Basics of JavaScript</h3>
+        <p>Let's start with the basics by looking at a example:</p>
+        <div>
+            <pre><code>
+                function sum(a,b){
+
+                    return a + b;
+
+                }
+            </code>
+        </pre>
+        </div>
+        <p>
+            This code defines a funtion called <strong>sum</strong>. This means that you can call <code>sum(1,3)</code>
+            which returns <strong>4</strong>. You can run it again with different values instead of 1 and 3.
+        </p>
+
+        <h4>Return keyword</h4>
+        <p>
+            The keyword <strong>return</strong> instructs the function that this is the result of that function.
+        </p>
+
+        <h3>Strings</h3>
+
+        <p>
+            You can create a string in JavaScript by simply using double quotes ("") or single quotes ('').
+        </p>
+        <div>
+            <pre>
+                <code>
+                    "This is a string";
+
+                    'This is also a string!'
+                </code>
+            </pre>
+        </div>
+
+        <h3>Basic String methods </h3>
+
+        <p>Here are some methods you can call on strings:</p>
+        <dl>
+            <dt>
+                <h4>.includes(searchString)</h4>
+            </dt>
+            <dd>This method returns true when the searchString is included inside the parent string.</dd>
+            <div>
+                <pre>
+                    <code>"Prashant.includes("shant"); //true
+
+                    "Prashant".includes("gogo"); //false    
+                    </code>
+                </pre>
+            </div>
+
+            <dt>
+                <h4>.toUpperCase()</h4>
+            </dt>
+            <dd>This method will return a new string that has all of its characters in upper case.</dd>
+            <div>
+                <pre>
+                    <code>"Prashant.toUpperCase(); //"PRASHANT"
+                    </code>
+                </pre>
+            </div>
+
+            <dt>
+                <h4>.toLowerCase()</h4>
+            </dt>
+            <dd>This method will return a new string that has all of its characters in lower case.</dd>
+            <div>
+                <pre>
+                    <code>"Prashant.toLowerCase(); //"prashant"
+                    </code>
+                </pre>
+            </div>
+
+
+        </dl>
     </div>
 
     <footer class="footer">
