@@ -3,7 +3,7 @@
 :root {
     --primary-color: #3B82F6;
     --dark-gray: #6B7280;
-    --off-white: #F3F4F6;
+    --off-white: #eff0f3;
 }
 
 @media (max-width: 400px) {
@@ -129,7 +129,7 @@ h2 + small{
 /* section */
 
 .section {
-    padding: 2rem;
+    padding: 1rem 2rem 2rem;
 }
 
 .section h1 {
