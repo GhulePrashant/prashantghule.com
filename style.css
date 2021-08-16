@@ -184,3 +184,7 @@ h2 + small{
     display: block;
     margin: auto;
 }
+
+pre{
+    text-align:left;
+}
